@@ -51,7 +51,7 @@ def gen_empty_pattern():
 	for i in range(7):
 		date += datetime.timedelta(days=1)
 
-def init(message="GITHUB", author_name="", author_email=""):
+def init(message="ANINDYA", author_name="", author_email=""):
 
 	class author:
 		name = author_name
